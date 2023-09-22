@@ -1,0 +1,11 @@
+.sidebar {
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 2rem;
+}
+
+main {
+  flex-grow: 1;
+  padding: 1rem;
+}

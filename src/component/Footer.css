@@ -1,0 +1,50 @@
+/* ProductList.css or your custom CSS file */
+.subscription-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  .subscription-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px; 
+    font-size: 16px;
+  }
+  
+  .subscription-button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .subscription-button:hover {
+    background-color: #0056b3; 
+  }
+
+  .blue-text {
+    color: blue;
+  }
+
+  @media (max-width: 768px) {
+    .subscription-container {
+      flex-direction: column; 
+    }
+  
+    .subscription-input {
+      width: 100%;
+      margin-bottom: 10px; 
+    }
+  
+    .subscription-button {
+      width: 100%; 
+    }
+  
+   
+  }
